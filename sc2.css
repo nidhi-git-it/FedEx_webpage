@@ -1,0 +1,169 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(222, 198, 230)
+   /* font-family: 'Raleway', sans-serif;*/
+   
+   
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav ul{
+    display:flex;
+    align-items:center;
+    list-style-type:none;
+    height:60px;
+    background-color:rgb(97, 0, 127);
+    color:white;
+    padding:20px;
+    
+}
+nav ul li{
+    display:flex;
+    /*display:inline-block;*/
+    padding:0px 30px;
+    align-items:center;
+    white-space:nowrap;
+    font-size:17px;
+    
+}
+
+.SignUp{
+    padding-left:15%;
+    font-size:17px;
+    
+
+}
+
+.SignUp:hover, SignUppopup{
+    
+   /* background-color:red;*/
+    transform:scale(1.1);
+
+}
+
+/*.SignUppopup:hover{
+
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    z-index:1;
+    text-align:center;
+
+}*/
+
+.search{
+    display:flex;
+   /* margin-top:10px;*/
+    /*margin-right:60px;*/
+    padding-left:60px;
+    
+    
+    
+    
+}
+
+/*.search i{
+    
+    padding-right:30%;
+}*/
+
+.logo img{
+    width:80px;
+    padding:0 15px;
+}
+
+.text{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 100px;
+    color:black; 
+    margin-left: 550px;
+    
+}
+
+text.h1{
+    font-size:20px;
+    justify-content: left;
+   
+}
+
+.container{
+    min-height:100vh;
+    width: 100%;
+    background-color:rgb(222, 198, 230);
+    
+    
+}
+
+.section{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    
+}
+
+.cards{
+    display: flex;
+    margin-top:100px;
+    margin-left: 320px;
+}
+
+
+.card{
+    margin-left: 100px;
+    align-items:center;
+    border-radius:8px;
+    border: 1px solid black;
+    width:150px;
+    height:150px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    background-color:purple;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    font-size:3rem;
+    text-align:left;
+    padding:2px;
+}
+
+input{
+    padding:10px;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-weight:bold;
+}
+
+/*P{
+    margin-left:15%;
+}*/
+
+.btn{
+    margin-right:30%;
+    right:50%;
+    
+    
+    display:inline-block;
+    vertical-align:middle;
+    padding:10px;
+    text-align:center;
+    background-color:orange;
+    color:white;
+    justify-content:center;
+    align-items:center;
+}
